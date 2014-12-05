@@ -1,0 +1,21 @@
+{
+    "name": "mediaman/kickass-client",
+    "description": "A scraper for eztv.it based on Symfony components.",
+    "keywords": [ "eztv", "movies", "tv", "mediaman" ,"johnny"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "fabpot/goutte": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+          "Mediaman\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/prodigitalson/kickass-client"
+        }
+    ]
+}
